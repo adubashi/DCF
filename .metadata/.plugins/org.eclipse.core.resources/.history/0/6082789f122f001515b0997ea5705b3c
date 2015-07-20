@@ -1,0 +1,11 @@
+
+public class WACC {
+	//CAPM
+	//Cost of Equity(Re) = Rf + Beta(Rm - Rf)(Risk Premum)
+	private double riskFreeRate;
+	private double beta;
+	private double riskPremium;
+	private double costOfEquity;
+	
+
+}

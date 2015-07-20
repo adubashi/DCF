@@ -1,0 +1,28 @@
+
+public class WACC {
+	//CAPM
+	//Cost of Equity(Re) = Rf + Beta(Rm - Rf)(Risk Premum)
+	private double riskFreeRate;
+	private double beta;
+	private double riskPremium;
+	private double costOfEquity;
+	private double corporateTaxRate;
+	private double marketRateOfDebt;
+	private double equityToTotal;
+	private double debtToTotal;
+	private int wacc;
+	
+	public WACC(double riskFreeRate, double beta, double riskPremium, double corporateTaxRate){
+		this.riskFreeRate = riskFreeRate;
+		this.beta = beta;
+		this.riskPremium = riskPremium;
+		this.costOfEquity = riskFreeRate + beta * (riskPremium);
+	}
+	
+	public int calculateWACC(){
+		//WACC = Re x E/V + Rd x (1 - corporate tax rate) x D/V.
+		this.wacc = this.costOfEquity * (this.equityToTotal)  + 
+	}
+	
+
+}
