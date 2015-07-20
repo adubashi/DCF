@@ -1,0 +1,17 @@
+
+import java.util.*;
+
+public class revenueProjections {
+	private int years;
+	private double growthRate;
+	private double initialRevenue;
+	
+	private List revenueTable = new ArrayList();
+	
+	public void calculateRevenueTable(){
+		revenueTable.add(initialRevenue);
+		for(int i = 2;  <= years; i++>)
+		
+	}
+
+}

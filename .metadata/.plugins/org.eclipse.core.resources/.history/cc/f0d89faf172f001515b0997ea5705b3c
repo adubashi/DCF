@@ -1,0 +1,11 @@
+
+import java.util.*;
+
+public class revenueProjections {
+	private int years;
+	private double growthRate;
+	private double initialRevenue;
+	
+	private l
+
+}
