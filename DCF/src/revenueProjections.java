@@ -9,6 +9,7 @@ public class revenueProjections {
 	private double taxRate;
 	private double netInvestmentPercent;
 	private double initialWorkingCapital;
+	private double initalChangeInWorkingCapital ;
 	
 	private List<Double> revenueTable;
 	private List<Double> operatingCosts;
@@ -17,10 +18,13 @@ public class revenueProjections {
 	private List<Double> afterTaxProfit;
 	private List<Double> netInvestment;
 	private List<Double> workingCapital;
+	private List<Double> changeInWorkingCapital;
+	private List<Double> freeCashFlow;
 	
 	
 	public revenueProjections(int years, double growthRate, double initialRevenue, double operatingCostsMargin,
-							  double taxRate, double netInvestmentPercent, double initialWorkingCapital){
+							  double taxRate, double netInvestmentPercent, double initialWorkingCapital,
+							  double initialChangeInWorkingCapital){
 		this.years = years;
 		this.growthRate = growthRate;
 		this.initialRevenue = initialRevenue;
@@ -28,7 +32,7 @@ public class revenueProjections {
 		this.taxRate = taxRate;
 		this.netInvestmentPercent = netInvestmentPercent;
 		this.initialWorkingCapital= initialWorkingCapital;
-		
+		this.initalChangeInWorkingCapital = initialChangeInWorkingCapital;
 		
 		this.revenueTable = new ArrayList();
 		this.operatingCosts = new ArrayList();
@@ -37,6 +41,8 @@ public class revenueProjections {
 		this.afterTaxProfit = new ArrayList();
 		this.netInvestment = new ArrayList();
 		this.workingCapital = new ArrayList();
+		this.changeInWorkingCapital = new ArrayList();
+		this.freeCashFlow = new ArrayList();
 	}
 	
 	
@@ -75,6 +81,18 @@ public class revenueProjections {
 		for(int i = 1; i <= years + 1; i++){
 			double rev = workingCapital.get(i - 1) * ( 1 + this.growthRate);
 			workingCapital.add(rev);
+		}
+		
+		changeInWorkingCapital.add(this.initalChangeInWorkingCapital);
+		for(int i = 1; i <= years + 1; i++){
+			double rev = workingCapital.get(i) - workingCapital.get(i  - 1);
+			changeInWorkingCapital.add(rev);
+		}
+		
+		
+		for(int i = 1; i <= years + 1; i++){
+			double rev = afterTaxProfit.get(i - 1) - netInvestment.get(i - 1) - changeInWorkingCapital.get(i - 1);
+			this.freeCashFlow.add(rev);
 		}
 		
 	}
@@ -124,7 +142,25 @@ public class revenueProjections {
 			test += " Year " + i + ": ";
 			test += workingCapital.get(i);
 		}
+		
+		test = test + "\n";
+		test = test + "Change in Working Capital:" + "\n";
+		for(int i = 0; i < years; i++){
+			test += " Year " + i + ": ";
+			test += changeInWorkingCapital.get(i);
+		}
+		
+		test = test + "\n";
+		test = test + "Free Cash Flow:" + "\n";
+		for(int i = 0; i < years; i++){
+			test += " Year " + i + ": ";
+			test += freeCashFlow.get(i);
+		}
 		return test;
+	}
+	
+	public List<Double> getCashFlowList(){
+		return this.freeCashFlow;
 	}
 
 }

@@ -1,0 +1,10 @@
+
+public class gordonGrowth {
+	private revenueProjections companyCashFlow;
+	private WACC discountRate;
+	
+	public gordonGrowth(revenueProjections companyCashFlow, WACC discountRate ){
+		
+	}
+
+}

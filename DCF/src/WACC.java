@@ -12,7 +12,10 @@ public class WACC {
 	private double debtToTotal;
 	private double wacc;
 	
-	public WACC(double riskFreeRate, double beta, double riskPremium, double corporateTaxRate){
+	public WACC(double riskFreeRate, double beta, double riskPremium, double corporateTaxRate, double equityToTotal,
+			    double debtToTotal){
+		this.equityToTotal = equityToTotal;
+		this.debtToTotal = debtToTotal;
 		this.riskFreeRate = riskFreeRate;
 		this.beta = beta;
 		this.riskPremium = riskPremium;
@@ -21,8 +24,14 @@ public class WACC {
 	
 	public double calculateWACC(){
 		//WACC = Re x E/V + Rd x (1 - corporate tax rate) x D/V.
+		System.out.prin
 		this.wacc = this.costOfEquity * (this.equityToTotal) + this.marketRateOfDebt * (1 - this.corporateTaxRate) *
 				    this.debtToTotal;
+		System.out.println(this.wacc);
+		return this.wacc;
+	}
+	
+	public double getWACC(){
 		return this.wacc;
 	}
 	

@@ -1,0 +1,22 @@
+
+public class gordonGrowth {
+	private revenueProjections companyCashFlow;
+	private WACC discountRate;
+	
+	public gordonGrowth(int years, double growthRate, double initialRevenue, double operatingCostsMargin,
+			  			double taxRate, double netInvestmentPercent, double initialWorkingCapital,
+			  			double initialChangeInWorkingCapital){
+		this.companyCashFlow = companyCashFlow;
+		this.discountRate = discountRate;	
+		companyCashFlow.calculateRevenueTable();
+		discountRate.calculateWACC();
+	}
+	
+	public String getCashFlow(){
+		String listString = companyCashFlow.getCashFlowList().toString();
+		return listString;
+	}
+	
+	
+
+}
