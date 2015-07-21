@@ -1,7 +1,0 @@
-
-public class revenueProjections {
-	private int years;
-	private double growthRate;
-	private double initialRevenue;
-
-}
