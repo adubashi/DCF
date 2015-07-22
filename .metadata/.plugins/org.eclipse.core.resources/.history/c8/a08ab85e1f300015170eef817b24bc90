@@ -1,0 +1,43 @@
+
+public class gordonGrowth {
+	public revenueProjections companyCashFlow;
+	public WACC discountRate;
+	public double cashFlowGrowthRate;
+	public double finalYearCashFlow;
+	public double terminalValue;
+	
+	public gordonGrowth(int years, double growthRate, double initialRevenue, double operatingCostsMargin,
+			  			double taxRate, double netInvestmentPercent, double initialWorkingCapital,
+			  			double initialChangeInWorkingCapital,double riskFreeRate, double beta, double riskPremium, double marketRateOfDebt,
+			  			double equityToTotal, double debtToTotal){
+		this.companyCashFlow = new revenueProjections(years,growthRate,initialRevenue,operatingCostsMargin,
+							  taxRate,netInvestmentPercent,initialWorkingCapital,
+							  initialChangeInWorkingCapital);
+
+		this.discountRate = new WACC(riskFreeRate, beta,riskPremium,taxRate, marketRateOfDebt,equityToTotal, debtToTotal);
+		discountRate.calculateWACC();
+		companyCashFlow.calculateRevenueTable();
+
+	}
+	
+	
+	
+	public String getCashFlow(){
+		String listString = companyCashFlow.getCashFlowList().toString();
+		return listString;
+	}
+	
+	public void calculateTerminalValue() {
+		'''
+		Terminal Value = Final Projected Year Cash Flow X (1+Long-Term Cash Flow Growth Rate) 
+				(Discount Rate – Long-Term Cash Flow Growth Rate)
+
+				Read more: http://www.investopedia.com/university/dcf/dcf4.asp#ixzz3gaPMnzMT 
+				Follow us: @Investopedia on Twitter
+		'''
+		
+	}
+	
+	
+
+}

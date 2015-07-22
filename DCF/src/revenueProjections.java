@@ -2,7 +2,7 @@
 import java.util.*;
 
 public class revenueProjections {
-	private int years;
+	public int years;
 	private double growthRate;
 	private double initialRevenue;
 	private double operatingCostsMargin;
@@ -145,14 +145,14 @@ public class revenueProjections {
 		
 		test = test + "\n";
 		test = test + "Change in Working Capital:" + "\n";
-		for(int i = 0; i < years; i++){
+		for(int i = 0; i < years + 1; i++){
 			test += " Year " + i + ": ";
 			test += changeInWorkingCapital.get(i);
 		}
 		
 		test = test + "\n";
 		test = test + "Free Cash Flow:" + "\n";
-		for(int i = 0; i < years; i++){
+		for(int i = 0; i < years + 1; i++){
 			test += " Year " + i + ": ";
 			test += freeCashFlow.get(i);
 		}
