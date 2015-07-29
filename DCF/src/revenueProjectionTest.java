@@ -12,6 +12,14 @@ public class revenueProjectionTest {
 		System.out.println("Gordon Growth:");
 		DCF.calculateGordonValue();
 		System.out.println(DCF.getTerminalValue());
+		
+		System.out.println("Enterprise Value:");
+		DCF.calculateEnterpriseValue();
+		System.out.println(DCF.getEnterpriseValue());
+		
+		System.out.println("Fair Value:");
+		DCF.calculateFairValue(50000000);
+		System.out.println(DCF.getFairValue());
 	}
 
 }

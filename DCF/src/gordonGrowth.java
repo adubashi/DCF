@@ -9,6 +9,7 @@ public class gordonGrowth {
 	public double finalYearCashFlow;
 	public double terminalValue;
 	public double enterpriseValue;
+	public double fairValue;
 	
 	public gordonGrowth(int years, double growthRate, double initialRevenue, double operatingCostsMargin,
 			  			double taxRate, double netInvestmentPercent, double initialWorkingCapital,
@@ -36,7 +37,7 @@ public class gordonGrowth {
 	public void calculateGordonValue() {
 		/*
 		Terminal Value = Final Projected Year Cash Flow X (1+Long-Term Cash Flow Growth Rate) 
-				(Discount Rate – Long-Term Cash Flow Growth Rate)
+				(Discount Rate ï¿½ Long-Term Cash Flow Growth Rate)
 		*/
 		this.finalYearCashFlow = this.cashFlowTable.get(this.cashFlowTable.size()-1);
 		System.out.println("Final Year Cash Flow");
@@ -74,12 +75,22 @@ public class gordonGrowth {
 		
 	}
 	
-	
-	
+	public void calculateFairValue(double debt){
+		this.fairValue = this.enterpriseValue - debt;
+		
+	}
 	
 	
 	public double getTerminalValue(){
 		return this.terminalValue;
+	}
+	
+	public double getEnterpriseValue(){
+		return this.enterpriseValue;
+	}
+	
+	public double getFairValue(){
+		return this.fairValue;
 	}
 	
 	
