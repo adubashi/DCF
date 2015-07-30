@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
 <window height="1148" width="1443" x="138" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -37,21 +37,21 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WACC.java" partName="WACC.java" path="/home/adubashi/DCF/DCF/src/WACC.java" title="WACC.java" tooltip="DCF/src/WACC.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WACC.java" partName="WACC.java" path="/home/adubashi/DCF/DCF/src/WACC.java" title="WACC.java" tooltip="DCF/src/WACC.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DCF/src/WACC.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="795" selectionTopPixel="177"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="957" selectionTopPixel="259"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="revenueProjections.java" partName="revenueProjections.java" path="/home/adubashi/DCF/DCF/src/revenueProjections.java" title="revenueProjections.java" tooltip="DCF/src/revenueProjections.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DCF/src/revenueProjections.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="890" selectionTopPixel="215"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="890" selectionTopPixel="1450"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="revenueProjectionTest.java" partName="revenueProjectionTest.java" path="/home/adubashi/DCF/DCF/src/revenueProjectionTest.java" title="revenueProjectionTest.java" tooltip="DCF/src/revenueProjectionTest.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="revenueProjectionTest.java" partName="revenueProjectionTest.java" path="/home/adubashi/DCF/DCF/src/revenueProjectionTest.java" title="revenueProjectionTest.java" tooltip="DCF/src/revenueProjectionTest.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DCF/src/revenueProjectionTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="443" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="814" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="gordonGrowth.java" partName="gordonGrowth.java" path="/home/adubashi/DCF/DCF/src/gordonGrowth.java" title="gordonGrowth.java" tooltip="DCF/src/gordonGrowth.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DCF/src/gordonGrowth.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="239" selectionOffset="669" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2897" selectionTopPixel="865"/>
 </editor>
 </editors>
 <views>
@@ -253,7 +253,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.07371349" ratioLeft="106" ratioRight="1332" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.82429904" ratioLeft="882" ratioRight="188" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.75600386" ratioLeft="787" ratioRight="254" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -290,82 +290,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DCF/src/revenueProjectionTest.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DCF/src/WACC.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DCF/src/gordonGrowth.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DCF/src/revenueProjections.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DCF/src/revenueProjectionTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DCF/src/gordonGrowth.java"/>
 </editors>
-<item historyLabel="revenueProjectionTest.java" index="1">
-<position info="not_deleted" x="269" y="0"/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="947" y="0"/>
-</item>
-<item historyLabel="WACC.java" index="2">
-<position/>
-</item>
-<item historyLabel="revenueProjectionTest.java" index="1">
-<position info="not_deleted" x="269" y="0"/>
-</item>
-<item historyLabel="revenueProjections.java" index="0">
-<position info="not_deleted" x="890" y="0"/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1233" y="0"/>
-</item>
-<item historyLabel="revenueProjections.java" index="0">
-<position info="not_deleted" x="890" y="0"/>
-</item>
-<item historyLabel="revenueProjectionTest.java" index="1">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1233" y="0"/>
-</item>
-<item historyLabel="revenueProjectionTest.java" index="1">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1233" y="0"/>
-</item>
-<item historyLabel="revenueProjectionTest.java" index="1">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1233" y="0"/>
-</item>
-<item historyLabel="revenueProjectionTest.java" index="1">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1057" y="0"/>
-</item>
-<item historyLabel="WACC.java" index="2">
-<position/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1057" y="0"/>
-</item>
-<item historyLabel="WACC.java" index="2">
-<position/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1057" y="0"/>
-</item>
-<item historyLabel="WACC.java" index="2">
-<position/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1057" y="0"/>
-</item>
-<item historyLabel="WACC.java" index="2">
-<position/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1057" y="0"/>
-</item>
-<item historyLabel="WACC.java" index="2">
-<position/>
-</item>
-<item historyLabel="gordonGrowth.java" index="3">
-<position info="not_deleted" x="1057" y="0"/>
-</item>
 <item historyLabel="WACC.java" index="2">
 <position/>
 </item>
@@ -438,8 +366,83 @@
 <item historyLabel="revenueProjections.java" index="0">
 <position info="not_deleted" x="890" y="0"/>
 </item>
-<item active="true" historyLabel="WACC.java" index="2">
+<item historyLabel="WACC.java" index="2">
 <position/>
+</item>
+<item historyLabel="revenueProjections.java" index="4">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="655" y="0"/>
+</item>
+<item historyLabel="revenueProjections.java" index="4">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="1978" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="1924" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="2160" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="2160" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="2697" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="190" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="2697" y="0"/>
+</item>
+<item historyLabel="WACC.java" index="2">
+<position info="not_deleted" x="957" y="0"/>
+</item>
+<item historyLabel="revenueProjections.java" index="4">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="190" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="2697" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="2689" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="190" y="0"/>
+</item>
+<item historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="806" y="0"/>
+</item>
+<item historyLabel="gordonGrowth.java" index="6">
+<position info="not_deleted" x="2897" y="0"/>
+</item>
+<item active="true" historyLabel="revenueProjectionTest.java" index="5">
+<position info="not_deleted" x="806" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
